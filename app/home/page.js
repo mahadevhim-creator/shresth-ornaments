@@ -1,8 +1,8 @@
 'use client'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import ProductCard from '../components/ProductCard'
 import Link from 'next/link'
+import ProductCard from '../components/ProductCard'
 
 export default function HomePage() {
   const featuredProducts = [
