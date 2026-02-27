@@ -173,7 +173,7 @@ export default function Home() {
                   {subLabel}
                 </p>
                 {/* ✅ FIXED: text-gray-900 instead of text-white-900 */}
-                <h2 className="text-4xl md:text-5xl font-black text-gray-900">
+                <h2 className="text-4xl md:text-5xl font-black text-white-900">
                   {headingLabel}
                 </h2>
               </div>
@@ -242,11 +242,12 @@ export default function Home() {
             )}
 
             <div className="text-center mt-12">
-              <Link href="/categories"
-                className="inline-block border-2 border-gray-900 hover:bg-gray-900 hover:text-white text-gray-900 px-12 py-4 font-bold tracking-widest uppercase text-sm transition-all">
-                Browse All Products
-              </Link>
-            </div>
+<Link
+  href="/categories"
+  className="inline-block border-2 border-white text-white hover:bg-white hover:text-black px-12 py-4 font-bold tracking-widest uppercase text-sm transition-all"
+>
+  Browse All Products
+</Link>            </div>
           </div>
 
         </div>
