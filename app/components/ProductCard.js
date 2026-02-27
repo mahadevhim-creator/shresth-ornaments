@@ -13,10 +13,10 @@ export default function ProductCard({ item }) {
       <div className="p-4">
         <h3 className="font-bold text-gray-900 mb-2">{item.code}</h3>
         <p className="text-gray-600 mb-3">Weight: {item.weight}</p>
-        <Link
-          href={`/product/${item.id}`}
-          className="inline-block bg-amber-600 hover:bg-amber-700 text-white px-4 py-2 rounded-lg text-sm font-bold transition"
-        >
+       <Link
+  href="/categories"
+  className="inline-block bg-amber-600 hover:bg-amber-700 text-white px-4 py-2 rounded-lg text-sm font-bold transition"
+>
           View Details
         </Link>
       </div>
